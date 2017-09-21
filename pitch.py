@@ -16,6 +16,9 @@ def name(part):
     cursor.close()
 
 
+#This line added
+
+
 def unique(part):
     cursor.execute('''SELECT b.PitchID
                         FROM [LocknutData].[dbo].[PartNumber] a
